@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "locale": "English_New Zealand.1252",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.9.19",
+    "package_manager": {
+      "name": "pip",
+      "version": "24.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "647866079b3d7b3441a09ecbe50c94b9"
+    },
+    "app.py": {
+      "checksum": "fb9a3b7f95546e65b0d367413d974e1b"
+    },
+    "index.html": {
+      "checksum": "3a841732dbdc1df714de7eee8565d13f"
+    },
+    "index.qmd": {
+      "checksum": "449109bd247a35c7773606e8d24be75f"
+    },
+    "index_files/libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "2318f137d201fbf51601fa0faba6bef7"
+    },
+    "index_files/libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "1a51dfbe5467607389d603c02a77cd10"
+    },
+    "index_files/libs/bootstrap/bootstrap.min.css": {
+      "checksum": "a52992f52aeb95f350bb869e6fa5d232"
+    },
+    "index_files/libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "index_files/libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "index_files/libs/quarto-dashboard/components.js": {
+      "checksum": "ac49ebff39666f27f4631a3914841683"
+    },
+    "index_files/libs/quarto-dashboard/datatables.min.css": {
+      "checksum": "7b2279175549cd49b758a7d5b4da6cd6"
+    },
+    "index_files/libs/quarto-dashboard/datatables.min.js": {
+      "checksum": "80521430bee6a8d1a1ba48987ff870c1"
+    },
+    "index_files/libs/quarto-dashboard/pdfmake.min.js": {
+      "checksum": "95caca411bcbd3095c0f8db152de05dd"
+    },
+    "index_files/libs/quarto-dashboard/quarto-dashboard.js": {
+      "checksum": "bd2bba0a7c7d9aa8840eb5a9c73c2c28"
+    },
+    "index_files/libs/quarto-dashboard/stickythead.js": {
+      "checksum": "5b27aeec9a60192899f23015fd741564"
+    },
+    "index_files/libs/quarto-dashboard/vfs_fonts.js": {
+      "checksum": "8a026906153f3e29bc684f6b392e8654"
+    },
+    "index_files/libs/quarto-dashboard/web-components.js": {
+      "checksum": "c91de9b5866fb45c694bbeafa119d6b9"
+    },
+    "index_files/libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "index_files/libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "index_files/libs/quarto-html/quarto-syntax-highlighting.css": {
+      "checksum": "ab2b9e94a89b131e869fd951d6355545"
+    },
+    "index_files/libs/quarto-html/quarto.js": {
+      "checksum": "7563d37e31580c9573af5b12aa3779a2"
+    },
+    "index_files/libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "index_files/libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    }
+  }
+}

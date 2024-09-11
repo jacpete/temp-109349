@@ -1,0 +1,6 @@
+ipywidgets
+pandas
+plotly
+quarto
+shiny==1.0.0
+shinywidgets

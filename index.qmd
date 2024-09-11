@@ -1,0 +1,33 @@
+--- 
+title: "@jupyter-widgets/html-manager.js MRE"
+format: 
+  dashboard:
+    expandable: false
+server: shiny
+---
+
+```{python}
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from shiny import render, reactive, ui
+from shinywidgets import render_widget, render_plotly
+
+data = px.data.gapminder().query("country == 'New Zealand'")
+```
+
+# Gapminder
+
+## Row {.toolbar}
+```{python}
+ui.input_select("value", "Value", choices=['lifeExp', 'pop', 'gdpPercap'], selected="pop")
+```
+
+## Row
+```{python}
+@render_plotly
+def display_trend():
+    value = input.value()
+    fig = px.bar(data, x='year', y=value, title=f"New Zealand {value} by year")
+    return fig
+```
